@@ -1,0 +1,55 @@
+.form-wrapper {
+    position: relative;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    width: 30em;
+    margin-top: 8em;
+    padding-bottom: 40px;
+
+    .input-fields-style {
+        height: 40px;
+        background: rgba(163, 161, 161, 0.171);
+        margin-top: 20px;
+        margin-right: 50px;
+        border-radius: 5px;
+        border: solid 2px lightgray;
+    }
+    #privacy-policy {
+        color: #417d3a;
+        cursor: pointer;
+    }
+    #privacy-policy:hover {
+        color: greenyellow;
+    }
+    #contact-form-textarea {
+        height: 200px;
+    }
+    #contact-form-textarea::-webkit-input-placeholder {
+        font-size: 20px;
+    }
+    #file {
+        color: #757575;
+        font-size: 16px;
+        padding-left: 5%;
+        padding-top: 3%;
+    }
+    #policy-wrapper {
+        display: flex;
+        #checkbox {
+            transform: scale(1.5);
+        }
+        #policy-content {
+            align-self: center;
+            padding-top: 16px;
+        }
+    }
+    #submit {
+        width: 10em;
+        align-self: center;
+        height: 40px;
+        background-color: whitesmoke;
+        border-radius: 20px;
+        border: solid 2px #94bd68;
+    }
+}

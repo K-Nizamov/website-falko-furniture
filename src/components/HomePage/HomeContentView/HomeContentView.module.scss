@@ -1,0 +1,47 @@
+.home-background {
+    width: 100%;
+    height: 48em;
+}
+.products-section-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    #content-after-main-page {
+        font-family: "Roboto";
+        text-align: center;
+        font-size: 48px;
+        font-weight: 400;
+        margin-top: 150px;
+    }
+    .product-describe-section {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 50px;
+
+        .describe-wrapper {
+            display: flex;
+            flex-direction: column;
+            width: 470px;
+            height: 280px;
+
+            h2 {
+                font: 400 36px "Roboto";
+                color: #9dce5e;
+                padding: 0;
+                margin: 0;
+            }
+        }
+
+        img {
+            width: 470px;
+            height: 280px;
+        }
+    }
+    .products-img-wrapper-main-page {
+        display: flex;
+
+        margin: 90px;
+        justify-content: space-evenly;
+    }
+}

@@ -1,0 +1,39 @@
+.header-wrapper {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+
+    .header-container {
+        display: flex;
+        flex-grow: 1;
+        max-height: 75px;
+
+        .logo-container {
+            display: flex;
+            width: fit-content;
+
+            #logo-img {
+                width: 75px;
+            }
+
+            #logo-text {
+                font-size: 18px;
+                color: whitesmoke;
+                margin: 10px;
+
+                #second {
+                    color: #94bd68;
+                    font-size: 40px;
+                    font-weight: 300;
+                }
+            }
+        }
+        
+        #mobile-contacts {
+            color: rgb(85, 84, 84);
+            align-self: center;
+            margin-right: 3%;
+            padding-top: 8px;
+        }
+    }
+}

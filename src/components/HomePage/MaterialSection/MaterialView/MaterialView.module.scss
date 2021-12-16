@@ -1,0 +1,18 @@
+.material{
+    margin: 70px;
+    display: flex;
+    justify-content: center;
+    img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+    p {
+        width: 700px;
+        text-align: end;
+        border-bottom: 2px solid #9DCE5E;
+        height: 20px;
+        padding-top: 40px;
+
+    }
+}
